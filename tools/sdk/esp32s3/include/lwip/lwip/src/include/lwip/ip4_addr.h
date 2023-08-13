@@ -60,7 +60,7 @@ typedef struct ip4_addr ip4_addr_t;
 struct netif;
 
 /** 255.255.255.255 */
-#define IPADDR_NONE         ((u32_t)0x00000000UL)
+//#define IPADDR_NONE         ((u32_t)0x00000000UL)
 /** 127.0.0.1 */
 #define IPADDR_LOOPBACK     ((u32_t)0x7f000001UL)
 /** 0.0.0.0 */
